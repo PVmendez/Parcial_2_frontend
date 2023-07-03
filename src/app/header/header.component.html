@@ -1,0 +1,23 @@
+<header>
+    <nav>
+      <div class="navbar">
+        <div class="brand">
+          <a href="#"><img src="https://o.remove.bg/downloads/271f54ef-29f0-4b3e-9d16-6f2c7c4855d7/image-removebg-preview.png" width="50px"/></a>
+        </div>
+        <div class="toggle" (click)="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu" [ngClass]="{'active': isMenuOpen}">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
